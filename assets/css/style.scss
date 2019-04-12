@@ -16,10 +16,6 @@ header{
   font-size: 3em;
 }
 
-#description{
-  text-align: center
-}
-
 .downloads{
   border: initial;
   background: inherit;
@@ -32,6 +28,12 @@ header{
 .downloads li a{
   font-size: 25px;
   line-height: normal;
+}
+
+a:hover{
+  color:#2660bf;
+  text-decoration: underline;
+  font-weight: inherit;
 }
 
 .downloads li a:hover{
