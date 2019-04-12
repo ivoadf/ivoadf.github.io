@@ -1,0 +1,40 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  position: inherit;
+}
+
+#title{
+  word-spacing: 500px;
+  font-size: 3em;
+}
+
+#description{
+  text-align: center
+}
+
+.downloads{
+  border: initial;
+  background: inherit;
+}
+
+.downloads li{
+  border: initial;
+}
+
+.downloads li a{
+  font-size: 25px;
+  line-height: normal;
+}
+
+.downloads li a:hover{
+  color: #58729b;
+  font-weight: normal;
+}
