@@ -36,6 +36,16 @@
           <li><a href="{{ site.data.links.linkedin }}"> <i class="fab fa-linkedin"></i> </a></li>
           <li><a href="{{ site.data.links.goodreads }}"> <i class="fab fa-goodreads"></i> </a></li>
         </ul>
+
+        <div id="youtube-section">
+          <p>Some of my favourite yt channels</p>
+          {% for ytchannel in site.data.youtube_channels.byname %}
+            <div class="g-ytsubscribe" data-channel="{{ ytchannel }}" data-layout="full" data-count="default"></div>
+          {% endfor %}
+          {% for ytchannel in site.data.youtube_channels.byid %}
+            <div class="g-ytsubscribe" data-channelid="{{ ytchannel }}" data-layout="full" data-count="default"></div>
+          {% endfor %}
+        </div>
       </header>
       <section>
 
@@ -44,5 +54,6 @@
       </section>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
   </body>
 </html>

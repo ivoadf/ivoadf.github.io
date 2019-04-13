@@ -17,6 +17,7 @@ header{
 }
 
 .downloads{
+  position: inherit;
   border: initial;
   background: inherit;
 }
@@ -39,4 +40,11 @@ a:hover{
 .downloads li a:hover{
   color: #58729b;
   font-weight: normal;
+}
+
+@media print, screen and (max-width: 960px) {
+  #youtube-section {
+    display: none;
+  }
+
 }
