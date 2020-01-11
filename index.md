@@ -20,14 +20,17 @@ A paper originated from this work and was accepted in the Second International W
 
 ### Work
 ---
+#### Amazon
+Financial systems team, maintaining and developing the accounting system for Prime Video. This includes: contract tracking, contract updates, payments, amortisation rules and reporting.
+
+#### Deimos
+I worked at Deimos Engenharia as a Software Engineer from November 2018 to March 2019. During my time working in the ground segment department I developed a machine learning tool that capable of generating land use land cover maps and refactored the configuration and architecture of the ELK stack.
+
 #### NightOut
 Mobile App (Android + iOS) that allows users to find bars and nightclubs to attend to.This project started with a group of friends (2 students of economics and 3 student of computer science). Born in 2016, this project was one of the 20 finalists of BIG smartcities 2016 after winning in the Porto district.
 
 #### WindsP
 Worked on this project during the summer of 2016 part of a scholarship at FEUP informatics department. Consisted on continuing the development of a web platform to manage wind research campaigns within the ambit of WindScanner.eu - The European WindScanner Facility.
-
-#### Deimos
-I worked at Deimos Engenharia as a Software Engineer from November 2018 to March 2019. During my time working in the ground segment department I developed a machine learning tool that capable of generating land use land cover maps and refactored the configuration and architecture of the ELK stack.
 
 ---
 
